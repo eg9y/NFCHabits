@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct NFCHabitsApp: App {
+    @UIApplicationDelegateAdaptor(FSAppDelegate.self) var appDelegate
+  
     var body: some Scene {
         WindowGroup {
             ContentView()
