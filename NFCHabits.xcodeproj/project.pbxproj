@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A608FB812966C7EB006658A7 /* UniversalLinkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A608FB802966C7EB006658A7 /* UniversalLinkDelegate.swift */; };
 		A608FB832966C844006658A7 /* WriteNfcHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A608FB822966C844006658A7 /* WriteNfcHabitView.swift */; };
+		A608FB852966CD9A006658A7 /* NFCSessionWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A608FB842966CD9A006658A7 /* NFCSessionWrite.swift */; };
 		A674F013295CA29700393F99 /* NFCHabitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674F012295CA29700393F99 /* NFCHabitsApp.swift */; };
 		A674F015295CA29700393F99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A674F014295CA29700393F99 /* ContentView.swift */; };
 		A674F017295CA29900393F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A674F016295CA29900393F99 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		A608FB7F296696E0006658A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A608FB802966C7EB006658A7 /* UniversalLinkDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalLinkDelegate.swift; sourceTree = "<group>"; };
 		A608FB822966C844006658A7 /* WriteNfcHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteNfcHabitView.swift; sourceTree = "<group>"; };
+		A608FB842966CD9A006658A7 /* NFCSessionWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCSessionWrite.swift; sourceTree = "<group>"; };
 		A674F00F295CA29700393F99 /* NFCHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A674F012295CA29700393F99 /* NFCHabitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCHabitsApp.swift; sourceTree = "<group>"; };
 		A674F014295CA29700393F99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		A674F011295CA29700393F99 /* NFCHabits */ = {
 			isa = PBXGroup;
 			children = (
+				A608FB842966CD9A006658A7 /* NFCSessionWrite.swift */,
 				A608FB822966C844006658A7 /* WriteNfcHabitView.swift */,
 				A608FB802966C7EB006658A7 /* UniversalLinkDelegate.swift */,
 				A608FB7F296696E0006658A7 /* Info.plist */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A608FB812966C7EB006658A7 /* UniversalLinkDelegate.swift in Sources */,
+				A608FB852966CD9A006658A7 /* NFCSessionWrite.swift in Sources */,
 				A674F015295CA29700393F99 /* ContentView.swift in Sources */,
 				A674F013295CA29700393F99 /* NFCHabitsApp.swift in Sources */,
 				A608FB832966C844006658A7 /* WriteNfcHabitView.swift in Sources */,
